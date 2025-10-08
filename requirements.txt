@@ -1,5 +1,11 @@
+jupyter
 numpy 
 pandas 
 scikit-learn 
 seaborn 
-jupyter
+matplotlib
+tensorflow
+streamlit
+joblib
+streamlit
+pillow

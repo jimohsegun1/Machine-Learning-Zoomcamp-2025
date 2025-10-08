@@ -1,6 +1,4 @@
-**Notes from scripts:**
-
-## To set up and install dependencies from a requirements.txt file for your Python project, follow these steps:
+**setting up environments and  install dependencies from a requirements.txt file for your Python project, follow these steps:**
 
 #### Step 1: Create a Virtual Environment (Optional but Recommended)
 It's a good practice to create a virtual environment for your project to isolate its dependencies from the system Python environment. You can create a virtual environment using the venv module that comes with Python:
@@ -13,6 +11,10 @@ To activate the virtual environment, run:
 
 - On Windows:
 - `myenv\Scripts\activate`
+
+#### If having issues in running the above, do these:
+- for current user: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+- for LocalMachineScope: `Set-ExecutionPolicy RemoteSigned`
 
 On macOS/Linux:
 - `source myenv/bin/activate`
